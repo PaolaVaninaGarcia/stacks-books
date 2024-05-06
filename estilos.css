@@ -1,0 +1,113 @@
+#father{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+}
+
+#Eliminar {
+    background: #FF4742;
+    border: 1px solid #FF4742;
+    border-radius: 6px;
+    box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-family: nunito, roboto, proxima-nova, "proxima nova", sans-serif;
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 16px;
+    min-height: 40px;
+    outline: 0;
+    padding: 12px 14px;
+    text-align: center;
+    text-rendering: geometricprecision;
+    text-transform: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: middle;
+    margin: 10px;
+
+    
+}
+
+#Eliminar:hover,
+#Eliminar:active {
+    background-color: initial;
+    background-position: 0 0;
+    color: red;
+}
+
+#Eliminar:active {
+    opacity: .5;
+}
+
+#Agregar {
+    background: blue;
+    border: 1px solid blue;
+    border: 1px solid 2;
+    border-radius: 6px;
+    box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-family: nunito, roboto, proxima-nova, "proxima nova", sans-serif;
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 16px;
+    min-height: 40px;
+    outline: 0;
+    padding: 12px 14px;
+    text-align: center;
+    text-rendering: geometricprecision;
+    text-transform: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: middle;
+    margin: 10px;
+
+    
+}
+
+#Agregar:hover,
+#Agregar:active {
+    background-color: initial;
+    background-position: 0 0;
+    color: blue;
+    border: 1px solid;
+}
+
+#Agregarr:active {
+    opacity: .5;
+}
+
+
+#titulo {
+    font-size: 24px;
+    color: deeppink;
+    padding: 1em;
+
+}
+
+#card{
+    padding:1em 1em 1em 1em;
+}
+
+#bookName{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+}
+
+#buttons{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+
+#book{
+    text-align: center;
+}
